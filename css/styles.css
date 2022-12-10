@@ -252,6 +252,11 @@ h4 {
     padding-bottom: 30px;
 }
 
+.flex-icons-contact {
+    display: flex;
+    padding: 16px 32px 0 32px;
+}
+
 /* NASI KLIENCI */
 
 .svg-border {
