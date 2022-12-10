@@ -98,8 +98,8 @@ h4 {
 
 /* EFEKTYWNE ROZWIĄZANIA... */
 .solutions {
-    background-image: url(images/bg.jpg);
     background-color: var(--background-grey);
+    background-image: url(./images/bg.jpg);
     text-align: center;
 }
 
