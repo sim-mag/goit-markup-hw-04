@@ -14,7 +14,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 1px dashed var(--blue);
+    /* outline: 1px dashed var(--blue); */
 }
 
 ul,
@@ -73,6 +73,7 @@ h4 {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
+    padding-left: 10px;
 }
 
 .tab {
@@ -82,10 +83,6 @@ h4 {
 .header-contact-flex {
     display: flex;
     gap: 30px;
-}
-
-.header-contact-flex svg {
-    padding-right: 10px;
 }
 
 .menu-contact {
@@ -194,6 +191,13 @@ h4 {
     line-height: 1.7142;
 }
 
+.bg-for-icon {
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    padding: 25px 100px;
+}
+
 .articles h3 {
     color: var(--black);
     font-weight: 700;
@@ -201,6 +205,7 @@ h4 {
     line-height: 1.1428;
     list-style: none;
     padding-bottom: 10px;
+    padding-top: 30px;
 }
 
 .flex-text {
@@ -264,6 +269,7 @@ h4 {
 
 .flex-icons-contact {
     display: flex;
+    gap: 10px;
     padding: 16px 32px 0 32px;
 }
 
@@ -274,6 +280,7 @@ h4 {
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    padding: 16px 32px;
 }
 
 .svg-border:hover {
@@ -369,12 +376,10 @@ address li {
 }
 
 .join-us h3 {
-    font-style: bold;
     font-size: 14px;
     line-height: 1.1428;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 .footer-icons-flex {
