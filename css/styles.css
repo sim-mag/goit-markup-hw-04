@@ -104,6 +104,7 @@ h4 {
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
+    /* filter: brightness(0.6); */
     /* opacity: 40%; */
 }
 
@@ -115,6 +116,7 @@ h4 {
     line-height: 1.3636;
     letter-spacing: 0.06em;
     padding: 106px 252px 0;
+    filter: brightness(1);
 }
 
 /* BUTTONS */
