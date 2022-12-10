@@ -98,9 +98,13 @@ h4 {
 
 /* EFEKTYWNE ROZWIĄZANIA... */
 .solutions {
-    background-color: var(--background-grey);
-    background-image: url(./images/bg.jpg);
+    /* background-color: var(--background-grey); */
+    background-image: url(../images/bg.jpg);
     text-align: center;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* opacity: 40%; */
 }
 
 .solutions h1 {
