@@ -322,6 +322,11 @@ h4 {
     padding: 60px 0;
 }
 
+.footer-flex {
+    display: flex;
+    gap: 70px;
+}
+
 .company-name-footer {
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -347,6 +352,26 @@ address li {
 .footer-contact {
     color: #ffffff99;
     text-decoration: none;
+}
+
+.join-us {
+    padding-top: 12px;
+
+}
+
+.join-us h3 {
+    font-style: bold;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 3%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer-icons-flex {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
 }
 
 .footer-contact:hover {
