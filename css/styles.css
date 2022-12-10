@@ -14,7 +14,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    /* outline: 1px dashed var(--blue); */
+    outline: 1px dashed var(--blue);
 }
 
 ul,
@@ -77,6 +77,15 @@ h4 {
 
 .tab {
     color: var(--black);
+}
+
+.header-contact-flex {
+    display: flex;
+    gap: 30px;
+}
+
+.header-contact-flex svg {
+    padding-right: 10px;
 }
 
 .menu-contact {
