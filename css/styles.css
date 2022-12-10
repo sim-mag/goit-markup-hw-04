@@ -14,7 +14,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    /* outline: 1px dashed var(--blue); */
+    outline: 1px dashed var(--blue);
 }
 
 ul,
@@ -98,6 +98,7 @@ h4 {
 
 /* EFEKTYWNE ROZWIĄZANIA... */
 .solutions {
+    background-image: url(images/bg.jpg);
     background-color: var(--background-grey);
     text-align: center;
 }
