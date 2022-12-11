@@ -247,9 +247,11 @@ h4 {
     padding: 12px 12px 8px 12px;
 }
 
-.flex-icons-contact li:hover {
+.flex-icons-contact li:hover,
+.flex-icons-contact li:focus {
     background-color: var(--blue);
     fill: white;
+    outline: none;
 }
 
 /* NASI KLIENCI */
@@ -272,9 +274,11 @@ h4 {
     border-radius: 4px;
     padding: 16px 32px;
 }
-.svg-border:hover {
+.svg-border:hover,
+.svg-border:focus {
     fill: var(--blue);
     border-color: var(--blue);
+    outline: none;
 }       
 
 /* MAIN STRONY PORTFOLIO */
@@ -373,8 +377,10 @@ address li {
     padding: 12px 12px 8px 12px;
     background-color: #FFFFFF1A;
 }
-.footer-icons-flex li:hover {
+.footer-icons-flex li:hover,
+.footer-icons-flex li:focus {
     background-color: var(--blue);
+    outline: none;
 }
 .footer-contact:hover,
 .footer-contact:focus {
