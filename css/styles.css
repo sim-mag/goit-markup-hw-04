@@ -405,7 +405,7 @@ address li {
 }
 
 .footer-icons-flex svg:hover {
-    fill: var(--blue), currentcolor;
+    fill: var(--blue);
 }
 
 .footer-contact:hover,
