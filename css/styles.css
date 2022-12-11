@@ -394,6 +394,10 @@ address li {
     padding-top: 20px;
 }
 
+.footer-icons-flex svg:hover {
+    stroke: var(--blue);
+}
+
 .footer-contact:hover,
 .footer-contact:focus {
     color: var(--blue);
