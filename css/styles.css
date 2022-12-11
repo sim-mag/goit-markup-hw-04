@@ -243,6 +243,8 @@ h4 {
     border-radius: 50%;
     padding: 12px;
     box-shadow: none;
+    /* tutaj jest padding na dole na 8px do wyrównania koła w tle (w contencie pojawiło się kilka dodatkowych pikseli nieznanego pochodzenia :p) */
+    padding: 12px 12px 8px 12px;
 }
 
 .flex-icons-contact li:hover {
@@ -367,7 +369,8 @@ address li {
 .footer-icons-flex li{
     border: none;
     border-radius: 50%;
-    padding: 12px;
+    /* tutaj jest padding na dole na 8px do wyrównania koła w tle (w contencie pojawiło się kilka dodatkowych pikseli nieznanego pochodzenia :p) */
+    padding: 12px 12px 8px 12px;
     background-color: #FFFFFF1A;
 }
 .footer-icons-flex li:hover {
