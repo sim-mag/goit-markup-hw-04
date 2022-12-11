@@ -113,7 +113,7 @@ h4 {
 /* EFEKTYWNE ROZWIĄZANIA... */
 .solutions {
     /* background-color: var(--background-grey); */
-    background-image: url(../images/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/bg.jpg);
     text-align: center;
     background-size: auto;
     background-position: center;
