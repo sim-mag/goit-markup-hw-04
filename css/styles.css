@@ -355,8 +355,14 @@ address li {
     padding-top: 20px;
     fill: white;
 }
-.footer-icons-flex svg:hover {
-    fill: var(--blue);
+.footer-icons-flex li{
+    border: none;
+    border-radius: 50%;
+    padding: 12px;
+    background-color: #FFFFFF1A;
+}
+.footer-icons-flex li:hover {
+    background-color: var(--blue);
 }
 .footer-contact:hover,
 .footer-contact:focus {
