@@ -260,7 +260,7 @@ h4 {
     gap: 30px;
     fill: var(--icon-grey);
 }
-.flex-clients svg {
+.flex-clients li {
     gap: 34px;
     justify-content: space-between;
     align-items: center;
