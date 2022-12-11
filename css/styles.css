@@ -233,12 +233,21 @@ h4 {
 }
 .flex-icons-contact {
     display: flex;
-    gap: 34px;
-    padding: 28px 44px 42px 44px;
-    
+    gap: 10px;
+    padding: 16px 32px 30px 32px;
 }
-.flex-icons-contact svg:hover {
-    fill: var(--blue);
+
+.flex-icons-contact li {
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    padding: 12px;
+    box-shadow: none;
+}
+
+.flex-icons-contact li:hover {
+    background-color: var(--blue);
+    fill: white;
 }
 
 /* NASI KLIENCI */
