@@ -3,6 +3,7 @@
     --black: #212121;
     --grey: #757575;
     --background-grey: #2f303a;
+    --icon-grey: #AFB1B8;
 }
 
 body {
@@ -83,13 +84,14 @@ h4 {
 .header-contact-flex {
     display: flex;
     gap: 30px;
+    fill: var(--icon-grey);
 }
 
 .header-contact-flex li:hover,
 .header-contact-flex li:focus {
     fill: var(--blue);
-    stroke: var(--blue);
 }
+
 
 .menu-contact {
     display: flex;
@@ -232,6 +234,7 @@ h4 {
     padding-top: 50px;
     justify-content: center;
     gap: 30px;
+    fill: var(--icon-grey);
 }
 
 /* NASZ ZESPÓŁ */
@@ -274,14 +277,15 @@ h4 {
     padding: 16px 32px 0 32px;
 }
 
-/* TEST HOVER SVG!!! */
-
-.flex-icons-contact svg:hover {
-    fill: red;
-    stroke: var(--blue);
-}
-
 /* NASI KLIENCI */
+
+.flex-clients {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    gap: 30px;
+    fill: var(--icon-grey);
+}
 
 .svg-border {
     width: 170px;
@@ -294,7 +298,6 @@ h4 {
 .svg-border:hover {
     fill: var(--blue);
     border-color: var(--blue);
-    stroke: var(--blue);
 }       
 
 /* MAIN STRONY PORTFOLIO */
@@ -398,10 +401,11 @@ address li {
     display: flex;
     gap: 10px;
     padding-top: 20px;
+    fill: #FFFFFF1A;
 }
 
 .footer-icons-flex svg:hover {
-    stroke: var(--blue);
+    fill: var(--blue), currentcolor;
 }
 
 .footer-contact:hover,
