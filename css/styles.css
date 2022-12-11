@@ -74,8 +74,12 @@ h4 {
     gap: 30px;
     fill: var(--icon-grey);
 }
+.header-contact-flex span {
+    padding-left: 10px;
+}
+
 .header-contact-flex li:hover,
-.header-contact-flex li:focus {
+.header-contact-flex a:focus {
     fill: var(--blue);
 }
 .menu-contact {
