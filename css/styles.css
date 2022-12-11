@@ -85,7 +85,8 @@ h4 {
     gap: 30px;
 }
 
-.header-contact-flex li:hover {
+.header-contact-flex li:hover,
+.header-contact-flex li:focus {
     fill: var(--blue);
     stroke: var(--blue);
 }
