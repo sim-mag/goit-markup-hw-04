@@ -5,19 +5,16 @@
     --background-grey: #2f303a;
     --icon-grey: #AFB1B8;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--black);
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
     /* outline: 1px dashed var(--blue); */
 }
-
 ul,
 p,
 h1,
@@ -28,7 +25,6 @@ h4 {
     padding: 0;
     list-style: none;
 }
-
 .section {
     padding: 94px 0;
 }
@@ -37,18 +33,15 @@ h4 {
 .header-wrapper {
     padding: 24px 0 25px 0;
 }
-
 .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .wrapper nav {
     display: flex;
     gap: 93px;
 }
-
 .company-name {
     color: black;
     font-family: 'Raleway', sans-serif;
@@ -57,17 +50,14 @@ h4 {
     line-height: 1.1923;
     text-decoration: none;
 }
-
 .logo {
     color: var(--blue);
 }
-
 .menu {
     display: flex;
     align-items: center;
     gap: 46px;
 }
-
 .nav,
 .contact {
     text-decoration: none;
@@ -76,54 +66,42 @@ h4 {
     line-height: 1.1428;
     padding-left: 10px;
 }
-
 .tab {
     color: var(--black);
 }
-
 .header-contact-flex {
     display: flex;
     gap: 30px;
     fill: var(--icon-grey);
 }
-
 .header-contact-flex li:hover,
 .header-contact-flex li:focus {
     fill: var(--blue);
 }
-
-
 .menu-contact {
     display: flex;
     gap: 50px;
 }
-
 .contact {
     color: var(--grey);
 }
-
 .nav:hover,
 .nav:focus {
     color: var(--blue);
     outline: none;
 }
-
 .border-nav {
     border-bottom: 1px solid #ececec;
 }
 
 /* EFEKTYWNE ROZWIĄZANIA... */
 .solutions {
-    /* background-color: var(--background-grey); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/bg.jpg);
     text-align: center;
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
-    /* filter: brightness(0.6); */
-    /* opacity: 40%; */
 }
-
 .solutions h1 {
     color: white;
     font-weight: 900;
@@ -139,7 +117,6 @@ h4 {
     margin-top: 30px;
     margin-bottom: 106px;
 }
-
 .button {
     background-color: #f5f4fa;
     font-family: 'Roboto', sans-serif;
@@ -150,7 +127,6 @@ h4 {
     cursor: pointer;
     border-radius: 4px;
 }
-
 .main-button .button {
     color: white;
     background-color: var(--blue);
@@ -163,21 +139,17 @@ h4 {
     border-radius: 4px;
     padding: 10px 41px 10px 42px;
 }
-
 .nav-buttons {
     display: flex;
     justify-content: center;
     padding: 94px 0 50px 0;
 }
-
 .nav-buttons li {
     margin-right: 8px;
 }
-
 .nav-buttons .button {
     padding: 6px 22px 6px 22px;
 }
-
 .button:hover,
 .button:focus {
     color: white;
@@ -193,14 +165,12 @@ h4 {
     font-weight: 400;
     line-height: 1.7142;
 }
-
 .bg-for-icon {
     background-color: #F5F4FA;
     width: 270px;
     height: 120px;
     padding: 25px 100px;
 }
-
 .articles h3 {
     color: var(--black);
     font-weight: 700;
@@ -210,7 +180,6 @@ h4 {
     padding-bottom: 10px;
     padding-top: 30px;
 }
-
 .flex-text {
     display: flex;
     gap: 30px;
@@ -220,7 +189,6 @@ h4 {
 .no-margin {
     margin-top: -94px;
 }
-
 .section-title {
     color: var(--black);
     font-weight: 700;
@@ -228,7 +196,6 @@ h4 {
     line-height: 1.1666;
     text-align: center;
 }
-
 .flex-photos {
     display: flex;
     padding-top: 50px;
@@ -238,22 +205,18 @@ h4 {
 }
 
 /* NASZ ZESPÓŁ */
-
 .our-team {
     background-color: #f5f4fa;
     padding-top: 94px;
 }
-
 .our-team li {
     text-align: center;
     background-color: white;
-    padding-bottom: 30px;
     /* wartości skopiowane bezpośrednio z figmy! */
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-
 .our-team h3 {
     color: var(--black);
     font-weight: 500;
@@ -262,23 +225,23 @@ h4 {
     padding-top: 30px;
     padding-bottom: 10px;
 }
-
 .profession {
     color: var(--grey);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.1875;
-    padding-bottom: 30px;
 }
-
 .flex-icons-contact {
     display: flex;
-    gap: 10px;
-    padding: 16px 32px 0 32px;
+    gap: 34px;
+    padding: 28px 44px 42px 44px;
+    
+}
+.flex-icons-contact svg:hover {
+    fill: var(--blue);
 }
 
 /* NASI KLIENCI */
-
 .flex-clients {
     display: flex;
     padding-top: 50px;
@@ -286,13 +249,11 @@ h4 {
     gap: 30px;
     fill: var(--icon-grey);
 }
-
 .flex-clients svg {
     gap: 34px;
     justify-content: space-between;
     align-items: center;
 }
-
 .svg-border {
     width: 170px;
     height: 92px;
@@ -300,7 +261,6 @@ h4 {
     border-radius: 4px;
     padding: 16px 32px;
 }
-
 .svg-border:hover {
     fill: var(--blue);
     border-color: var(--blue);
@@ -318,31 +278,26 @@ h4 {
     justify-content: space-between;
     margin: 0 -15px;
 }
-
 .flex-portfolio img {
     vertical-align: middle;
 }
-
 .flex-portfolio div {
     padding: 20px 24px 20px 24px;
     border: 2px solid #eeeeee;
     border-top: none;
 }
-
 .flex-portfolio h3 {
     color: var(--black);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
-
 .type {
     color: var(--grey);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.875;
 }
-
 .flex-portfolio li:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -353,12 +308,10 @@ h4 {
     background-color: var(--background-grey);
     padding: 60px 0;
 }
-
 .footer-flex {
     display: flex;
     gap: 70px;
 }
-
 .company-name-footer {
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -367,12 +320,10 @@ h4 {
     line-height: 1.1923;
     text-decoration: none;
 }
-
 .company-name-footer:focus,
 .company-name:focus {
     outline: none;
 }
-
 address {
     padding-top: 20px;
     font-style: normal;
@@ -381,45 +332,37 @@ address {
     line-height: 1.7142;
     text-decoration: none;
 }
-
 address li {
     padding-top: 9px;
 }
-
 .footer-contact {
     color: #ffffff99;
     text-decoration: none;
 }
-
 .join-us {
     padding-top: 12px;
 
 }
-
 .join-us h3 {
     font-size: 14px;
     line-height: 1.1428;
     letter-spacing: 0.03em;
     font-weight: 700;
 }
-
 .footer-icons-flex {
     display: flex;
     gap: 10px;
     padding-top: 20px;
-    fill: #FFFFFF1A;
+    fill: white;
 }
-
 .footer-icons-flex svg:hover {
     fill: var(--blue);
 }
-
 .footer-contact:hover,
 .footer-contact:focus {
     color: var(--blue);
     outline: none;
 }
-
 .underline {
     text-decoration: underline;
 }
