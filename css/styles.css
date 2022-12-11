@@ -287,6 +287,12 @@ h4 {
     fill: var(--icon-grey);
 }
 
+.flex-clients svg {
+    gap: 34px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .svg-border {
     width: 170px;
     height: 92px;
